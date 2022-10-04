@@ -1,0 +1,11 @@
+fruit_dic={'apple':5000,
+        'banana':4000,
+        'grape':5300,
+        'melon':6500
+            }
+print(fruit_dic.keys())
+print(fruit_dic.values())
+fruit_dic.pop('apple')
+print(fruit_dic)
+fruit_dic.clear()
+print(fruit_dic)
